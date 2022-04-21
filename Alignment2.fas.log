@@ -1,0 +1,187 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Mar 23 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ubuntu (AVX512, FMA3, 3 GB RAM)
+Command: iqtree -s Alignment2.fas -m K2P+I+G4 -bb 1000 -bnni
+Seed:    866468 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr 20 21:48:04 2022
+Kernel:  AVX+FMA - 1 threads (2 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 2 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Alignment2.fas ... Fasta format detected
+NOTE: Change sequence name 'Pterygoplichthys disjunctivus KJ533242.1' -> Pterygoplichthys_disjunctivus_KJ533242.1
+NOTE: Change sequence name 'Pterygoplichthys disjunctivus KJ533243.1' -> Pterygoplichthys_disjunctivus_KJ533243.1
+NOTE: Change sequence name 'Pterygoplichthys pardalis KJ533244.1' -> Pterygoplichthys_pardalis_KJ533244.1
+NOTE: Change sequence name 'Pterygoplichthys pardalis KJ533245.1' -> Pterygoplichthys_pardalis_KJ533245.1
+NOTE: Change sequence name 'Pterygoplichthys pardalis KT239016' -> Pterygoplichthys_pardalis_KT239016
+NOTE: Change sequence name 'Pterygoplichthys disjunctivus NC 015747' -> Pterygoplichthys_disjunctivus_NC
+Alignment most likely contains DNA/RNA sequences
+Alignment has 36 sequences with 562 columns, 31 distinct patterns
+17 parsimony-informative, 8 singleton sites, 537 constant sites
+                                          Gap/Ambiguity  Composition  p-value
+   1  Pterygoplichthys_disjunctivus_KJ533242.1    0.71%    passed     99.95%
+   2  Pterygoplichthys_disjunctivus_KJ533243.1    0.71%    passed     99.95%
+   3  Pterygoplichthys_pardalis_KJ533244.1        0.71%    passed     99.95%
+   4  Pterygoplichthys_pardalis_KJ533245.1        0.71%    passed     99.95%
+   5  Pterygoplichthys_pardalis_KT239016          0.53%    passed     99.97%
+   6  MN589891.1                                  0.53%    passed     99.42%
+   7  MN589892.1                                  0.53%    passed    100.00%
+   8  MN589893.1                                  0.36%    passed     99.97%
+   9  MN589894.1                                  0.53%    passed     99.58%
+  10  MN589895.1                                  0.53%    passed     99.96%
+  11  MN589896.1                                  0.53%    passed     99.75%
+  12  MN589897.1                                  0.53%    passed     99.91%
+  13  MN589898.1                                  0.53%    passed     99.58%
+  14  MN589899.1                                  0.89%    passed     99.88%
+  15  MN589900.1                                  0.53%    passed     99.97%
+  16  MN589901.1                                  0.71%    passed     99.95%
+  17  MN589902.1                                  0.53%    passed     99.96%
+  18  MN589903.1                                  0.18%    passed     99.98%
+  19  MN589904.1                                  0.53%    passed     99.73%
+  20  MN589905.1                                  0.53%    passed     99.78%
+  21  MN589906.1                                  0.36%    passed     99.94%
+  22  MN589907.1                                  0.53%    passed     99.80%
+  23  MN589908.1                                  0.53%    passed     99.92%
+  24  MN589909.1                                  0.53%    passed     99.63%
+  25  MN589910.1                                  0.53%    passed     99.95%
+  26  MN589911.1                                  0.36%    passed     99.99%
+  27  MN589912.1                                  0.36%    passed     99.56%
+  28  MN589913.1                                  0.53%    passed     98.16%
+  29  MN589914.1                                  0.53%    passed     99.92%
+  30  MN589915.1                                  0.53%    passed     99.95%
+  31  MN589916.1                                  0.53%    passed     88.10%
+  32  MN589917.1                                  0.53%    passed    100.00%
+  33  MN589918.1                                  0.36%    passed     99.89%
+  34  MN589919.1                                  0.36%    passed     99.89%
+  35  MN589920.1                                  0.36%    passed     99.62%
+  36  Pterygoplichthys_disjunctivus_NC            0.53%    passed     99.84%
+****  TOTAL                                       0.52%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Pterygoplichthys_disjunctivus_KJ533243.1 is identical to Pterygoplichthys_disjunctivus_KJ533242.1 but kept for subsequent analysis
+NOTE: MN589898.1 is identical to MN589894.1 but kept for subsequent analysis
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Pterygoplichthys_pardalis_KJ533244.1 (identical to Pterygoplichthys_disjunctivus_KJ533242.1) is ignored but added at the end
+NOTE: Pterygoplichthys_pardalis_KJ533245.1 (identical to Pterygoplichthys_disjunctivus_KJ533242.1) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to Alignment2.fas.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 866468)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.020 / LogL: -1327.425
+Init pinv, alpha: 0.106, 1.000 / Estimate: 0.917, 0.265 / LogL: -1229.618
+Init pinv, alpha: 0.212, 1.000 / Estimate: 0.917, 0.268 / LogL: -1229.609
+Init pinv, alpha: 0.319, 1.000 / Estimate: 0.917, 0.265 / LogL: -1229.621
+Init pinv, alpha: 0.425, 1.000 / Estimate: 0.918, 0.269 / LogL: -1229.605
+Init pinv, alpha: 0.531, 1.000 / Estimate: 0.916, 0.264 / LogL: -1229.627
+Init pinv, alpha: 0.637, 1.000 / Estimate: 0.918, 0.269 / LogL: -1229.607
+Init pinv, alpha: 0.743, 1.000 / Estimate: 0.917, 0.265 / LogL: -1229.624
+Init pinv, alpha: 0.849, 1.000 / Estimate: 0.917, 0.265 / LogL: -1229.626
+Init pinv, alpha: 0.956, 1.000 / Estimate: 0.928, 0.327 / LogL: -1229.656
+Optimal pinv,alpha: 0.918, 0.269 / LogL: -1229.605
+
+Parameters optimization took 0.532 sec
+Computing ML distances based on estimated model parameters... 0.012 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -1234.544
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.138 second
+Computing log-likelihood of 98 initial trees ... 0.203 seconds
+Current best score: -1228.912
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -1226.628
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -1226.467
+Iteration 10 / LogL: -1228.064 / Time: 0h:0m:1s
+Iteration 20 / LogL: -1229.187 / Time: 0h:0m:1s
+Finish initializing candidate tree set (18)
+Current best tree score: -1226.467 / CPU time: 1.470
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -1233.535 / Time: 0h:0m:2s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -1226.107
+UPDATE BEST LOG-LIKELIHOOD: -1226.101
+Iteration 40 / LogL: -1226.475 / Time: 0h:0m:3s (0h:0m:7s left)
+Iteration 50 / LogL: -1226.860 / Time: 0h:0m:3s (0h:0m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 56: -1225.960
+Iteration 60 / LogL: -1226.859 / Time: 0h:0m:4s (0h:0m:7s left)
+Iteration 70 / LogL: -1226.474 / Time: 0h:0m:5s (0h:0m:6s left)
+Iteration 80 / LogL: -1226.110 / Time: 0h:0m:5s (0h:0m:5s left)
+Iteration 90 / LogL: -1228.129 / Time: 0h:0m:6s (0h:0m:4s left)
+Iteration 100 / LogL: -1226.113 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 110 / LogL: -1225.960 / Time: 0h:0m:7s (0h:0m:3s left)
+Iteration 120 / LogL: -1226.471 / Time: 0h:0m:8s (0h:0m:2s left)
+Iteration 130 / LogL: -1226.624 / Time: 0h:0m:8s (0h:0m:1s left)
+Iteration 140 / LogL: -1226.106 / Time: 0h:0m:9s (0h:0m:1s left)
+Iteration 150 / LogL: -1226.104 / Time: 0h:0m:9s (0h:0m:0s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 157 ITERATIONS / Time: 0h:0m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -1225.960
+Optimal log-likelihood: -1225.956
+Rate parameters:  A-C: 1.00000  A-G: 2.43044  A-T: 1.00000  C-G: 1.00000  C-T: 2.43044  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Proportion of invariable sites: 0.922
+Gamma shape alpha: 0.302
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -1225.956
+Creating bootstrap support values...
+Split supports printed to NEXUS file Alignment2.fas.splits.nex
+Total tree length: 0.340
+
+Total number of iterations: 157
+CPU time used for tree search: 21.438 sec (0h:0m:21s)
+Wall-clock time used for tree search: 21.826 sec (0h:0m:21s)
+Total CPU time used: 22.067 sec (0h:0m:22s)
+Total wall-clock time used: 22.467 sec (0h:0m:22s)
+UFBoot trees printed to Alignment2.fas.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file Alignment2.fas.splits.nex...
+34 taxa and 983 splits.
+Consensus tree written to Alignment2.fas.contree
+Reading input trees file Alignment2.fas.contree
+Log-likelihood of consensus tree: -1226.638
+
+Analysis results written to: 
+  IQ-TREE report:                Alignment2.fas.iqtree
+  Maximum-likelihood tree:       Alignment2.fas.treefile
+  Likelihood distances:          Alignment2.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Alignment2.fas.splits.nex
+  Consensus tree:                Alignment2.fas.contree
+  UFBoot trees:                  Alignment2.fas.ufboot
+  Screen log file:               Alignment2.fas.log
+
+Date and Time: Wed Apr 20 21:48:27 2022

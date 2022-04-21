@@ -1,0 +1,253 @@
+IQ-TREE 1.6.12 built Mar 23 2020
+
+Input file name: Alignment2.fas
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 866468
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 36 sequences with 562 nucleotide sites
+Number of constant sites: 537 (= 95.5516% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 537 (= 95.5516% of all sites)
+Number of parsimony informative sites: 17
+Number of distinct site patterns: 31
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: K2P+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 2.4304
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.4304
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.2257    0.5486    0.2257
+  C    0.2257        -1    0.2257    0.5486
+  G    0.5486    0.2257        -1    0.2257
+  T    0.2257    0.5486    0.2257        -1
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.9223
+Gamma shape alpha: 0.3024
+
+ Category  Relative_rate  Proportion
+  0         0              0.9223
+  1         0.0707         0.01943
+  2         1.369          0.01943
+  3         7.719          0.01943
+  4         42.31          0.01943
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1225.9563 (s.e. 95.7694)
+Unconstrained log-likelihood (without tree): -941.9004
+Number of free parameters (#branches + #model parameters): 68
+Akaike information criterion (AIC) score: 2587.9126
+Corrected Akaike information criterion (AICc) score: 2606.9471
+Bayesian information criterion (BIC) score: 2882.4547
+
+Total tree length (sum of branch lengths): 0.3401
+Sum of internal branch lengths: 0.1662 (48.8648% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0018) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Pterygoplichthys_disjunctivus_KJ533242.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**Pterygoplichthys_disjunctivus_KJ533242.1
+|
++**Pterygoplichthys_disjunctivus_KJ533243.1
+|
+|  +--Pterygoplichthys_pardalis_KT239016
++**| (99)
+   |                                 +--MN589891.1
+   |                              +--| (91)
+   |                              |  +**MN589905.1
+   |                           +**| (14)
+   |                           |  |        +**MN589894.1
+   |                           |  |     +**| (100)
+   |                           |  |     |  +**MN589898.1
+   |                           |  |  +--| (18)
+   |                           |  |  |  |           +**MN589895.1
+   |                           |  |  |  |        +--| (13)
+   |                           |  |  |  |        |  |  +**MN589906.1
+   |                           |  |  |  |        |  +--| (23)
+   |                           |  |  |  |        |     |  +**MN589911.1
+   |                           |  |  |  |        |     +--| (45)
+   |                           |  |  |  |        |        +--MN589919.1
+   |                           |  |  |  |     +--| (20)
+   |                           |  |  |  |     |  +**MN589910.1
+   |                           |  |  |  |  +**| (24)
+   |                           |  |  |  |  |  |               +------MN589908.1
+   |                           |  |  |  |  |  |            +--| (54)
+   |                           |  |  |  |  |  |            |  |  +**MN589912.1
+   |                           |  |  |  |  |  |            |  +--| (62)
+   |                           |  |  |  |  |  |            |     +---MN589914.1
+   |                           |  |  |  |  |  |         +**| (52)
+   |                           |  |  |  |  |  |         |  +--MN589915.1
+   |                           |  |  |  |  |  +---------| (83)
+   |                           |  |  |  |  |            |        +**MN589913.1
+   |                           |  |  |  |  |            +--------| (95)
+   |                           |  |  |  |  |                     +-------------------MN589916.1
+   |                           |  |  |  +--| (46)
+   |                           |  |  |     |  +--MN589896.1
+   |                           |  |  |     +**| (54)
+   |                           |  |  |        |  +**MN589901.1
+   |                           |  |  |        +--| (69)
+   |                           |  |  |           +--MN589917.1
+   |                           |  +**| (18)
+   |                           |     +**MN589899.1
+   |                        +--| (41)
+   |                        |  |  +--MN589893.1
+   |                        |  +--| (64)
+   |                        |     +--MN589903.1
+   |                     +**| (22)
+   |                     |  +--MN589900.1
+   |                  +--| (63)
+   |                  |  +--MN589909.1
+   |               +**| (59)
+   |               |  +**MN589907.1
+   |        +------| (92)
+   |        |      +-------MN589918.1
+   |     +**| (40)
+   |     |  +---MN589904.1
+   |  +--| (46)
+   |  |  +**Pterygoplichthys_disjunctivus_NC
+   +**| (75)
+      |     +--MN589892.1
+      |  +--| (45)
+      |  |  |  +**MN589902.1
+      |  |  +--| (43)
+      |  |     +--MN589920.1
+      +--| (47)
+         +**MN589897.1
+
+Tree in newick format:
+
+(Pterygoplichthys_disjunctivus_KJ533242.1:0.0000009917,Pterygoplichthys_disjunctivus_KJ533243.1:0.0000009917,(Pterygoplichthys_pardalis_KT239016:0.0026845545,((((((((((MN589891.1:0.0027020330,MN589905.1:0.0000009917)91:0.0061241174,(((MN589894.1:0.0000009917,MN589898.1:0.0000009917)100:0.0000023328,((((MN589895.1:0.0000020230,(MN589906.1:0.0000020678,(MN589911.1:0.0000023912,MN589919.1:0.0092946263)45:0.0059240030)23:0.0026855299)13:0.0026883749,MN589910.1:0.0000026640)20:0.0059145893,(((MN589908.1:0.0213547579,(MN589912.1:0.0000020511,MN589914.1:0.0129576048)62:0.0030403264)54:0.0027471540,MN589915.1:0.0029090841)52:0.0000027571,(MN589913.1:0.0000026107,MN589916.1:0.0563862423)95:0.0269535457)83:0.0296696151)24:0.0000025210,(MN589896.1:0.0027472570,(MN589901.1:0.0000009917,MN589917.1:0.0028562476)69:0.0028834062)54:0.0000024744)46:0.0088545420)18:0.0029120304,MN589899.1:0.0000029242)18:0.0008848665)14:0.0015123380,(MN589893.1:0.0029414755,MN589903.1:0.0031880794)64:0.0031716710)41:0.0037357291,MN589900.1:0.0029051370)22:0.0000020410,MN589909.1:0.0026641193)63:0.0092743799,MN589907.1:0.0000021730)59:0.0000024515,MN589918.1:0.0228247970)92:0.0217708243,MN589904.1:0.0131009938)40:0.0000023017,Pterygoplichthys_disjunctivus_NC:0.0000024366)46:0.0055794808,((MN589892.1:0.0024630972,(MN589902.1:0.0000009917,MN589920.1:0.0098952426)43:0.0032779837)45:0.0066741860,MN589897.1:0.0000009917)47:0.0098892921)75:0.0000009917)99:0.0000021125);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -1226.638406
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**Pterygoplichthys_disjunctivus_KJ533242.1
+|
+|     +--Pterygoplichthys_disjunctivus_KJ533243.1
+|  +--|
+|  |  |  +--Pterygoplichthys_pardalis_KT239016
+|  |  +--| (99)
+|  |     |                              +--MN589891.1
+|  |     |                           +--| (91)
+|  |     |                           |  +--MN589905.1
+|  |     |                        +--| (23)
+|  |     |                        |  |     +--MN589894.1
+|  |     |                        |  |  +--| (100)
+|  |     |                        |  |  |  +--MN589898.1
+|  |     |                        |  +--| (48)
+|  |     |                        |     +--MN589899.1
+|  |     |                     +--| (14)
+|  |     |                     |  |              +--MN589895.1
+|  |     |                     |  |           +--| (47)
+|  |     |                     |  |           |  +--MN589906.1
+|  |     |                     |  |        +--| (13)
+|  |     |                     |  |        |  |  +--MN589911.1
+|  |     |                     |  |        |  +--| (45)
+|  |     |                     |  |        |     +--MN589919.1
+|  |     |                     |  |     +--| (20)
+|  |     |                     |  |     |  +--MN589910.1
+|  |     |                     |  |  +--| (24)
+|  |     |                     |  |  |  |                +------MN589908.1
+|  |     |                     |  |  |  |             +--| (54)
+|  |     |                     |  |  |  |             |  |  +--MN589912.1
+|  |     |                     |  |  |  |             |  +--| (62)
+|  |     |                     |  |  |  |             |     +---MN589914.1
+|  |     |                     |  |  |  |          +--| (52)
+|  |     |                     |  |  |  |          |  +--MN589915.1
+|  |     |                     |  |  |  +----------| (83)
+|  |     |                     |  |  |             |        +--MN589913.1
+|  |     |                     |  |  |             +--------| (95)
+|  |     |                     |  |  |                      +-------------------MN589916.1
+|  |     |                     |  +--| (46)
+|  |     |                     |     |  +--MN589896.1
+|  |     |                     |     +--| (54)
+|  |     |                     |        |  +--MN589901.1
+|  |     |                     |        +--| (69)
+|  |     |                     |           +--MN589917.1
+|  |     |                  +--| (41)
+|  |     |                  |  |  +--MN589893.1
+|  |     |                  |  +--| (64)
+|  |     |                  |     +--MN589903.1
+|  |     |               +--| (63)
+|  |     |               |  |  +--MN589900.1
+|  |     |               |  +--| (26)
+|  |     |               |     +--MN589909.1
+|  |     |            +--| (59)
+|  |     |            |  +--MN589907.1
+|  |     |     +------| (92)
+|  |     |     |      +-------MN589918.1
+|  |     |  +--| (46)
+|  |     |  |  |  +---MN589904.1
+|  |     |  |  +--| (44)
+|  |     |  |     +--Pterygoplichthys_disjunctivus_NC
+|  |     +--| (75)
+|  |        |     +--MN589892.1
+|  |        |  +--| (45)
+|  |        |  |  |  +--MN589902.1
+|  |        |  |  +--| (43)
+|  |        |  |     +--MN589920.1
+|  |        +--| (47)
+|  |           +--MN589897.1
++**|
+|  +**Pterygoplichthys_pardalis_KJ533245.1
+|
++**Pterygoplichthys_pardalis_KJ533244.1
+
+
+Consensus tree in newick format: 
+
+(Pterygoplichthys_disjunctivus_KJ533242.1:0.0000000000,((Pterygoplichthys_disjunctivus_KJ533243.1:0.0000027387,(Pterygoplichthys_pardalis_KT239016:0.0026301706,(((((((((MN589891.1:0.0026476363,MN589905.1:0.0000027387)91:0.0059680536,((MN589894.1:0.0000027387,MN589898.1:0.0000027387)100:0.0028280370,MN589899.1:0.0000027387)48:0.0012362236)23:0.0014778468,(((((MN589895.1:0.0000027387,MN589906.1:0.0026337025)47:0.0026339484,(MN589911.1:0.0000027387,MN589919.1:0.0090915797)45:0.0057956973)13:0.0000027387,MN589910.1:0.0000027387)20:0.0000027387,(((MN589908.1:0.0208160944,(MN589912.1:0.0000027413,MN589914.1:0.0126604468)62:0.0029650796)54:0.0026797639,MN589915.1:0.0028292198)52:0.0000027387,(MN589913.1:0.0000023078,MN589916.1:0.0556084054)95:0.0262941177)83:0.0314811912)24:0.0000027387,(MN589896.1:0.0030007123,(MN589901.1:0.0000027387,MN589917.1:0.0027959744)69:0.0027910708)54:0.0059791393)46:0.0087712815)14:0.0000027387,(MN589893.1:0.0030795186,MN589903.1:0.0027742601)64:0.0027727875)41:0.0029547191,(MN589900.1:0.0028249314,MN589909.1:0.0026159871)26:0.0000027387)63:0.0090502073,MN589907.1:0.0000027387)59:0.0000029125,MN589918.1:0.0221798864)92:0.0212621534,(MN589904.1:0.0127865197,Pterygoplichthys_disjunctivus_NC:0.0000027387)44:0.0000027387)46:0.0054633340,((MN589892.1:0.0024199929,(MN589902.1:0.0000027387,MN589920.1:0.0096611061)43:0.0031946154)45:0.0065059578,MN589897.1:0.0000027387)47:0.0096596332)75:0.0000027413)99:0.0000027387):0.0000027387,Pterygoplichthys_pardalis_KJ533245.1:0.0000000000):0.0000000000,Pterygoplichthys_pardalis_KJ533244.1:0.0000000000);
+
+TIME STAMP
+----------
+
+Date and time: Wed Apr 20 21:48:27 2022
+Total CPU time used: 22.067412 seconds (0h:0m:22s)
+Total wall-clock time used: 22.70685176 seconds (0h:0m:22s)
+
