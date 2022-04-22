@@ -6,12 +6,22 @@
 """
 
 # import the Tree feature from ete3 toolkit using command pip installed ete3
-from ete3 import Tree 
+from ete3 import Tree, NodeStyle, TreeStyle 
 
 t = Tree("Alignment2.fas.treefile") #reading file generated using iqtree
+ts = TreeStyle()
+ts.show_leaf_name = True
+ts.show_branch_length = True
+ts.show_branch_support = True
+t.render("mytree.png", w=1000, units="mm", tree_style=ts)
+t.show(tree_style=ts)
 
 # To prints the tree without any customization
 print(t) 
 
 # To write a new file as an output of nodes
 t.write(format=1, outfile="Alignment2.fas_tree.mw") 
+ 
+
+# To print the image of phylogenetic tree
+#t.render("Phylogenetic_tree.png")
