@@ -17,7 +17,25 @@ The objective of this project is to generate a phylogenetic tree from .fasta seq
 
 ## Preparation
 
-Concatenation of .fasta files using cat function
+Concatenation of .fasta files using cat function which includes the following command 
+
+<pre>concatenate <font color="#4E9A06">()</font> <font color="#4E9A06">{</font>
+  <font color="#3465A4"><b>cat</b></font> *fasta<font color="#4E9A06">&gt;&gt;</font>all_sequence.fasta
+<font color="#4E9A06">}</font>
+concatenate</pre>
 
 ## Alignment 
-installation of mafft tar xfvz mafft-7.490-linux.tgz
+
+For alignment, we are going to use mafft which is an open source alignment program that can be used with bash
+
+mafft can be installed with the following command: 
+sudo apt install mafft
+
+<pre>sudo apt install mafft </pre>
+
+The following bash function was used to generate an alignment
+
+<pre>align <font color="#4E9A06">()</font> <font color="#4E9A06">{</font> <font color="#06989A">
+mafft<font color="#75507B"><b> --localpair --maxiterate</b></font> 1000<font color="#75507B"><b> --clustalout</b></font> all_sequence.fasta<font color="#4E9A06">&gt;</font>Alignment.aln
+<font color="#4E9A06">}</font>
+align</pre>
