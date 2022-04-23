@@ -39,3 +39,21 @@ The following bash function was used to generate an alignment
 mafft<font color="#75507B"><b> --localpair --maxiterate</b></font> 1000<font color="#75507B"><b> --clustalout</b></font> all_sequence.fasta<font color="#4E9A06">&gt;</font>Alignment.aln
 <font color="#4E9A06">}</font>
 align</pre>
+
+## Mega 11 Software
+
+The sequence obtained from alignment as .aln file was analyzed using Mega 11 software (https://www.megasoftware.net/). 
+The unwanted sequences were removed, the sequence was renamed and exported as .fas file. In this case, it is Alignment2.fas
+
+## IQTree 
+
+The .fas file was used in IQTree using the following bash command
+
+<pre>sudo apt-get install iqtree </pre>
+
+Following the installation, following command will be used to generate a .treefile
+
+<pre><font color="#06989A"><font color="#4E9A06"><b>iqtree_func</b></font><font color="#4E9A06">()</font> <font color="#4E9A06">{</font><font color="#06989A">
+iqtree<font color="#75507B"><b> -s</b></font> Alignment2.fas
+<font color="#4E9A06">}</font>
+iqtree_func</pre>
