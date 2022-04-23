@@ -64,3 +64,6 @@ Python script import_tree will be called with a function:
 
 <pre>python3 import_tree.py</pre>
 
+## Output
+
+The output of the files should be a nice tree with nodes providing distances based on maximum likelihood and individual names of raw sequences
