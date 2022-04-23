@@ -47,7 +47,7 @@ The unwanted sequences were removed, the sequence was renamed and exported as .f
 
 ## IQTree 
 
-The .fas file was used in IQTree using the following bash command
+The .fas file was used in IQTree (http://www.iqtree.org/) using the following bash command
 
 <pre>sudo apt-get install iqtree </pre>
 
@@ -60,9 +60,15 @@ iqtree_func</pre>
 
 ## Python ete3 Toolkit
 
+ete3 package (http://etetoolkit.org/download/) should be isntalled with the following command 
+
+<pre>pip install ete3</pre>
+
 Python script import_tree will be called with a function:
 
 <pre>python3 import_tree.py</pre>
+
+This function involves importing Tree, TreeNode and TreeStyle. Moreover, it
 
 ## Output
 
