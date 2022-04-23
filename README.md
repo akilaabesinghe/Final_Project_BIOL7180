@@ -57,3 +57,10 @@ Following the installation, following command will be used to generate a .treefi
 iqtree<font color="#75507B"><b> -s</b></font> Alignment2.fas
 <font color="#4E9A06">}</font>
 iqtree_func</pre>
+
+## Python ete3 Toolkit
+
+Python script import_tree will be called with a function:
+
+<pre>python3 import_tree.py</pre>
+
