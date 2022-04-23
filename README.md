@@ -68,7 +68,7 @@ Python script import_tree will be called with a function:
 
 <pre>python3 import_tree.py</pre>
 
-This function involves importing Tree, TreeNode and TreeStyle. Moreover, it
+This function involves importing Tree, TreeNode and TreeStyle. Moreover, it renders the file as png
 
 ## Output
 
