@@ -16,5 +16,8 @@ The objective of this project is to generate a phylogenetic tree from .fasta seq
 
 
 ## Preparation
-1. Concatenation of .fasta files
 
+Concatenation of .fasta files using cat function
+
+## Alignment 
+installation of mafft tar xfvz mafft-7.490-linux.tgz
