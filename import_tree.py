@@ -8,7 +8,7 @@
 # import the Tree feature from ete3 toolkit using command pip installed ete3
 from ete3 import Tree, NodeStyle, TreeStyle 
 
-t = Tree("Alignment2.fas.treefile") #reading file generated using iqtree
+t = Tree("Alignment2.fas.treefile") #reading treefile generated using iqtree
 ts = TreeStyle()
 ts.show_leaf_name = True
 ts.show_branch_length = True
