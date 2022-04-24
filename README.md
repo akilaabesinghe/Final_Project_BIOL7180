@@ -35,14 +35,14 @@ sudo apt install mafft
 
 <pre>sudo apt install mafft </pre>
 
-The following bash function was used to generate an alignment
+The following bash function was used to generate an alignment (Alignment.sh).
 
 <pre>align <font color="#4E9A06">()</font> <font color="#4E9A06">{</font> <font color="#06989A">
 mafft<font color="#75507B"><b> --localpair --maxiterate</b></font> 1000<font color="#75507B"><b> --clustalout</b></font> all_sequence.fasta<font color="#4E9A06">&gt;</font>Alignment.aln
 <font color="#4E9A06">}</font>
 align</pre>
 
-If you want to change the Alignment model you can use thse. In our scripts we used L-INS-i mehod (Most acurate method).
+If you want to change the Alignment model you can use thse commands. In our scripts we used L-INS-i mehod (Most acurate method).
 
 *L-INS-i (probably most accurate; recommended for <200 sequences; iterative refinement method incorporating local pairwise alignment information):
 <pre>mafft --localpair --maxiterate 1000 --clustalout all_sequence.fasta>Alignment.aln</pre>
