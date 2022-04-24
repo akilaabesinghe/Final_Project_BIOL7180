@@ -17,8 +17,9 @@ The objective of this project is to generate a phylogenetic tree from .fasta seq
 
 
 ## Preparation
-First need to make a new folder fasta_files in the main directory and need to add all the fasta files in to this fasta_files folder.
-Concatenation of .fasta files using cat function which includes the following command 
+First need to make a new folder fasta_files in the main directory and need to add all the fasta files into this fasta_files folder.
+
+Concatenation of .fasta files using cat function which includes the following command. You can use all_sequence.sh script for this step. 
 
 <pre>concatenate <font color="#4E9A06">()</font> <font color="#4E9A06">{</font>
   <font color="#3465A4"><b>cat</b></font> *fasta<font color="#4E9A06">&gt;&gt;</font>all_sequence.fasta
