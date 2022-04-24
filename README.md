@@ -1,4 +1,5 @@
-# Final_Project_BIOL7180
+# Final Project BIOL7180 (Identification of Sailfin catfishes in Sri Lanka based on Mitochondrial DNA data)
+
 This repository includes all the scripts and other files That going to use for the final project of BIOL 7180. Here we use 16s mitochondrial DNA sequence data of 36 Pterygoplichthys individuals to construct this phylogenetics tree. Bash and python are the main languages we used in here. This project include 4 bash scripts (all_seq.sh, mafft.sh, iqtree.sh and combine_func.sh) and 1 python script (import_tree.py). 
 
 ## Objective 
