@@ -42,6 +42,18 @@ mafft<font color="#75507B"><b> --localpair --maxiterate</b></font> 1000<font col
 <font color="#4E9A06">}</font>
 align</pre>
 
+If you want to change the Alignment model you can use thse. In our scripts we used L-INS-i mehod (Most acurate method).
+*L-INS-i (probably most accurate; recommended for <200 sequences; iterative refinement method incorporating local pairwise alignment information):
+mafft --localpair --maxiterate 1000 input [> output]
+linsi input [> output]
+*G-INS-i (suitable for sequences of similar lengths; recommended for <200 sequences; iterative refinement method incorporating global pairwise alignment information):
+mafft --globalpair --maxiterate 1000 input [> output]
+ginsi input [> output]
+*E-INS-i (suitable for sequences containing large unalignable regions; recommended for <200 sequences):
+mafft --ep 0 --genafpair --maxiterate 1000 input [> output]
+einsi input [> output]
+For E-INS-i, the --ep 0 option is recommended to allow large gaps.
+
 ## Mega 11 Software
 
 The sequence obtained from alignment as .aln file was analyzed using Mega 11 software (https://www.megasoftware.net/). 
