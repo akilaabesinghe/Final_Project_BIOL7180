@@ -1,6 +1,6 @@
 # Final Project BIOL7180 (Identification of Sailfin catfishes in Sri Lanka based on Mitochondrial DNA data)
 
-This repository includes all the scripts and other files That going to use for the final project of BIOL 7180. Here we use 16s mitochondrial DNA sequence data of 36 Pterygoplichthys individuals to construct this phylogenetics tree. Bash and python are the main languages we used in here. This project include 4 bash scripts (all_seq.sh, mafft.sh, iqtree.sh and combine_func.sh) and 1 python script (import_tree.py). 
+This repository includes all the scripts and other files That going to use for the final project of BIOL 7180. Here we use 16s mitochondrial DNA sequence data of 36 Pterygoplichthys individuals to construct this phylogenetics tree. Bash and python are the main languages we used in here. This project include 4 bash scripts (all_seq.sh, mafft.sh, iqtree.sh and combine_func.sh) and 1 python script (import_tree.py). To make DNA sequence alignment we used MAFFT (multiple alignment using fast Fourier transform) program. To get maximusum likelihood phylogenetic tree we used terminal based iqtree program. And to visualize phylogenetic tree we used ete3 (The Environment for Tree Exploration) python toolkit.  
 
 ## Objective 
 The objective of this project is to generate a phylogenetic tree from .fasta sequence files using bash and python scripts
