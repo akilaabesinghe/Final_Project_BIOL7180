@@ -49,7 +49,7 @@ If you want to change the Alignment model you can use thse. In our scripts we us
 or
 <pre>linsi input [> output]</pre>
 
-*G-INS-i (suitable for sequences of similar lengths; recommended for <200 sequences; iterative refinement method incorporating global pairwise alignment information):<pre>mafft --globalpair --maxiterate 1000 input [> output]<pre>
+*G-INS-i (suitable for sequences of similar lengths; recommended for <200 sequences; iterative refinement method incorporating global pairwise alignment information):<pre>mafft --globalpair --maxiterate 1000 input [> output]</pre>
 or
 <pre>ginsi input [> output]</pre>
 
