@@ -1,5 +1,5 @@
 # Final_Project_BIOL7180
-This repository includes all the scripts and other files That going to use for the final project of BIOL 7180. Here we use 16s mitochondrial DNA sequence data of 36 Pterygoplichthys individuals to construct this phylogenetics tree. Bash and python are the main languages we used in here. This project include 4 bash scripts (all_seq.sh, mafft.sh, iqtree.sh and combine.sh) and 1 python script (inport_tree.py).
+This repository includes all the scripts and other files That going to use for the final project of BIOL 7180. Here we use 16s mitochondrial DNA sequence data of 36 Pterygoplichthys individuals to construct this phylogenetics tree. Bash and python are the main languages we used in here. This project include 4 bash scripts (all_seq.sh, mafft.sh, iqtree.sh and combine_func.sh) and 1 python script (import_tree.py). 
 
 ## Objective 
 The objective of this project is to generate a phylogenetic tree from .fasta sequence files using bash and python scripts
@@ -16,7 +16,7 @@ The objective of this project is to generate a phylogenetic tree from .fasta seq
 
 
 ## Preparation
-
+First need to make a new folder fasta_files in the main directory and need to add all the fasta files in to this fasta_files folder.
 Concatenation of .fasta files using cat function which includes the following command 
 
 <pre>concatenate <font color="#4E9A06">()</font> <font color="#4E9A06">{</font>
