@@ -64,7 +64,7 @@ The .fas alignment file (Alignment2.fas) was used in IQTree (http://www.iqtree.o
 
 <pre>sudo apt-get install iqtree </pre>
 
-Following the installation, following command will be used to generate a .treefile
+Following the installation, following command will be used to generate a .treefile. This .treefile has a newick format phylogenetic tree. And this can use to visualize the phylogenetic tree using ete3 toolkit.
 
 <pre><font color="#06989A"><font color="#4E9A06"><b>iqtree_func</b></font><font color="#4E9A06">()</font> <font color="#4E9A06">{</font><font color="#06989A">
 iqtree<font color="#75507B"><b> -s</b></font> Alignment2.fas
