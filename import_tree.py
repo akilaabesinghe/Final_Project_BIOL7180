@@ -10,11 +10,11 @@ from ete3 import Tree, NodeStyle, TreeStyle
 
 t = Tree("Alignment2.fas.treefile") #reading treefile generated using iqtree
 ts = TreeStyle()
-ts.show_leaf_name = True
-ts.show_branch_length = True
-ts.show_branch_support = True
-t.render("mytree.png", w=1000, units="mm", tree_style=ts)
-t.show(tree_style=ts)
+ts.show_leaf_name = True #show the leaf names 
+ts.show_branch_length = True #show the tree branch length
+ts.show_branch_support = True #show the branch support
+t.render("mytree.png", tree_style=ts) #This render the phylogenetic tree in to png file
+t.show(tree_style=ts) # this help to show the final tree in a GUI
 
 # To prints the tree without any customization
 print(t) 
