@@ -60,7 +60,7 @@ The unwanted sequences were removed, the sequence was renamed and exported as .f
 
 ## IQTree 
 
-The .fas file was used in IQTree (http://www.iqtree.org/) using the following bash command
+The .fas alignment file (Alignment2.fas) was used in IQTree (http://www.iqtree.org/) using the following bash command
 
 <pre>sudo apt-get install iqtree </pre>
 
