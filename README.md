@@ -83,6 +83,10 @@ Python script import_tree will be called with a function:
 
 This function involves importing Tree, TreeNode and TreeStyle. Moreover, it renders the file as png
 
+ ### Custamization of phylogenetic tree
+ 
+ we can custamize the phylogenetic tree using following commands in the import_tree.py
+
 ## Output
 
 The output of the files should be a nice tree with nodes providing distances based on maximum likelihood and individual names of raw sequences
