@@ -104,3 +104,4 @@ This function involves importing Tree, TreeNode and TreeStyle. Moreover, it rend
 ## Output
 
 The output of the files should be a nice tree with nodes providing distances based on maximum likelihood and individual names of raw sequences
+![](https://github.com/akilaabesinghe/Final_Project_BIOL7180/blob/master/mytree.png)
