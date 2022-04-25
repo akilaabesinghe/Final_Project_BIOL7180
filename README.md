@@ -83,9 +83,9 @@ Python script import_tree will be called with a function:
 
 This function involves importing Tree, TreeNode and TreeStyle. Moreover, it renders the file as png
 
- ### Custamization of phylogenetic tree
+ ### Customization of phylogenetic tree
  
- We can custamize the phylogenetic tree using following commands in the import_tree.py
+ We can customize the phylogenetic tree using following commands in the import_tree.py
  In this import_tree.py we have used ete3 package's Tree, Nodestyle and Treestyle modules.
  
  1) First we made a alias for TreeStyle() command
