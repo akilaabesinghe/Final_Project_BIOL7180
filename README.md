@@ -89,16 +89,16 @@ This function involves importing Tree, TreeNode and TreeStyle. Moreover, it rend
  In this import_tree.py we have used ete3 package's Tree, Nodestyle and Treestyle modules.
  
  1) First we made a alias for TreeStyle() command
- <pr>ts = TreeStyle()</pr>
+ <pre>ts = TreeStyle()</pre>
  2) To show tree names we use following command
- <pr>ts.show_leaf_name = True</pr>
+ <pre>ts.show_leaf_name = True</pre>
  3) To show tree branch length we use following command
- <pr>ts.show_branch_length</pr>
+ <pre>ts.show_branch_length</pre>
  4) To show tree branch support we use following command
- <pr>ts.show_branch_support = True</pr>
+ <pre>ts.show_branch_support = True</pre>
  
  Finally to export phylogenetic tree in to PNG file we use folloeing command
- <pr>t.render("mytree.png", tree_style=ts)</pr>
+ <pre>t.render("mytree.png", tree_style=ts)</pre>
  
 
 ## Output
